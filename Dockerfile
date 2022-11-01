@@ -3,7 +3,7 @@ FROM node:16-buster
 # Create app directory
 WORKDIR /app
 
-ENV NODE_OPTIONS=--openssl-legacy-provider
+# ENV NODE_OPTIONS=--openssl-legacy-provider
 
 # Install app dependencies
 # RUN npm -g install serve
